@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>हाम्रा कथाहरू | Go News</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="img/favicon_io/apple-touch-icon.png" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="fonts/fontawesome-5.0.8/css/fontawesome-all.min.css"> -->
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/util.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!--===============================================================================================-->
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <!-- Header desktop -->
+        <div class="container-menu-desktop">
+            <div class="topbar">
+                <div class="content-topbar container h-100">
+                    <div class="left-topbar">
+                        <span class="left-topbar-item flex-wr-s-c">
+                            <!-- <img class="m-b-1 m-rl-8" src="img/icons/icon-night.png" alt="IMG"> -->
+                            <span style="color: var(--black);">
+                                <i class="fa fa-home"></i>&nbsp;&nbsp;काठमाडौं, नेपाल
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </span>
+                            <i class="fa fa-calendar" style="color: var(--black);"></i> &nbsp; &nbsp;
+
+                            <span class="time mt-2">
+                                <iframe scrolling="no" marginwidth="0" marginheight="0"
+                                    src="https://www.ashesh.com.np/linknepali-time.php?time_only=no&amp;font_color=000&amp;aj_time=yes&amp;font_size=15&amp;line_brake=0&amp;bikram_sambat=0&amp;nc=1&amp;api=000"
+                                    width="325px" height="22px"></iframe>
+                            </span> &nbsp; &nbsp; &nbsp; &nbsp;
+
+
+                            <a href="nepali-about.html" class="left-topbar-item">
+                                हाम्रो बारेमा
+                            </a>
+
+                            <a href="nepali-contact.html" class="left-topbar-item">
+                                सम्पर्क
+                            </a>
+
+                            <a href="nepali-login.html" class="left-topbar-item">
+                                लग इन
+                            </a>
+                        </span>
+                    </div>
+
+                    <div class="right-topbar">
+                        <a href="stories.html" title="Click for English Website"
+                            class="btn btn-outline-secondary english"><img src="img/icons/english.png" alt="">
+                            EN
+                        </a>
+
+                        <a href="nepali-podcast.html" title="पोडकास्ट" class="btn btn-outline-secondary podcast"><i
+                                class="
+                    fa fa-microphone"></i>पोडकास्ट
+                        </a>
+
+                        <a class="btn btn-outline-secondary light-dark-mode ml-1">
+                            <img src="img/icons/moon.png" id="icon1" alt="">
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Header Mobile -->
+            <div class="wrap-header-mobile">
+                <!-- Logo moblie -->
+                <div class="logo-mobile">
+                    <a href="nepali-index.html"><img src="img/logo/logo.png" alt="IMG-LOGO"></a>
+                </div>
+
+                <!-- Button show menu -->
+                <div class="btn-show-menu-mobile hamburger hamburger--squeeze m-r--8">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </div>
+            </div>
+
+            <!-- Menu Mobile -->
+            <div class="menu-mobile">
+                <ul class="topbar-mobile">
+                    <li class="left-topbar">
+                        <span class="left-topbar-item flex-wr-s-c">
+                            <!-- <img class="m-b-1 m-rl-8" src="img/icons/icon-night.png" alt="IMG"> -->
+                            <span style="color: var(--black);">
+                                <i class="fa fa-home"></i>&nbsp;&nbsp;काठमाडौं, नेपाल
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </span>
+                            <i class="fa fa-calendar" style="color: var(--black);"></i> &nbsp; &nbsp;
+
+                            <span class="time mt-2">
+                                <iframe scrolling="no" marginwidth="0" marginheight="0"
+                                    src="https://www.ashesh.com.np/linknepali-time.php?time_only=no&amp;font_color=000&amp;aj_time=yes&amp;font_size=15&amp;line_brake=0&amp;bikram_sambat=0&amp;nc=1&amp;api=000"
+                                    width="325px" height="22px"></iframe>
+                            </span> &nbsp; &nbsp; &nbsp; &nbsp;
+
+                    </li>
+
+                    <li class="left-topbar">
+                        <a href="nepali-about.html" class="left-topbar-item">
+                            हाम्रो बारेमा
+                        </a>
+
+                        <a href="nepali-contact.html" class="left-topbar-item">
+                            सम्पर्क
+                        </a>
+
+                        <a href="nepali-login.html" class="left-topbar-item">
+                            लग इन
+                        </a>
+
+                    </li>
+
+                    <li class="right-topbar">
+                        <a href="stories.html" title="Click for English Website"
+                            class="btn btn-outline-secondary english"><img src="img/icons/english.png" alt="">
+                            EN
+                        </a>
+
+                        <a href="nepali-podcast.html" title="पोडकास्ट" class="btn btn-outline-secondary podcast"><i
+                                class="
+                fa fa-microphone"></i>पोडकास्ट
+                        </a>
+                        <a class="btn btn-outline-secondary light-dark-mode ml-1">
+                            <img src="img/icons/moon.png" id="icon2" alt="">
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="main-menu-m">
+                    <li>
+                        <a href="nepali-index.html">होमपेज</a>
+
+                    </li>
+
+                    <li>
+                        <a href="nepali-category.html">
+                            समाचार</a>
+                    </li>
+
+                    <li>
+                        <a href="nepali-category.html">मनोरन्जन </a>
+                    </li>
+
+                    <li>
+                        <a href="nepali-category.html">
+                            विजनेस</a>
+                    </li>
+
+                    <li>
+                        <a href="nepali-category.html">यात्रा</a>
+                    </li>
+
+                    <li>
+                        <a href="nepali-category.html">जीवन शैली</a>
+                    </li>
+
+                    <li>
+                        <a href="nepali-category.html">भिडियो</a>
+                    </li>
+
+                    <li>
+                        <a href="#">अन्य</a>
+                        <ul class="sub-menu-m">
+                            <li><a href="nepali-stories.html">हाम्रा कथाहरू</a></li>
+                            <li><a href="nepali-podcast.html">पोडकास्ट</a></li>
+                            <li><a href="nepali-about.html">हाम्रो बारेमा</a></li>
+                            <li><a href="nepali-contact.html">सम्पर्क</a></li>
+                        </ul>
+
+                        <span class="arrow-main-menu-m">
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+
+            <!--  -->
+            <div class="wrap-logo container">
+                <!-- Logo desktop -->
+                <div class="logo">
+                    <a href="nepali-index.html"><img src="img/logo/logo.png" alt="LOGO"></a>
+                </div>
+                <!-- Banner -->
+                <!-- <div class="banner-header">
+					<a href=""><img src="img/banner/banner-01.jpg" alt="IMG"></a>
+				</div> -->
+            </div>
+
+            <!--  -->
+            <div class="wrap-main-nav">
+                <div class="main-nav">
+                    <!-- Menu desktop -->
+                    <nav class="menu-desktop">
+                        <a class="logo-stick" href="nepali-index.html">
+                            <img src="img/logo/logo.png" alt="LOGO">
+                        </a>
+
+                        <ul class="main-menu">
+                            <li class="mega-menu-item">
+                                <a href="nepali-index.html">होमपेज</a>
+                            </li>
+
+                            <li class="mega-menu-item">
+                                <a href="nepali-category.html">समाचार</a>
+                            </li>
+
+                            <li class="main-menu-active">
+                                <a href="nepali-category.html">मनोरन्जन</a>
+
+
+                            </li>
+
+                            <li class="mega-menu-item">
+                                <a href="nepali-category.html">विजनेस</a>
+
+
+                            </li>
+
+                            <li class="mega-menu-item">
+                                <a href="nepali-category.html">यात्रा</a>
+
+
+                            </li>
+
+                            <li class="mega-menu-item">
+                                <a href="nepali-category.html">जीवन शैली</a>
+
+                            </li>
+
+
+                            <li class="mega-menu-item">
+                                <a href="nepali-category.html">भिडियो</a>
+
+                            </li>
+                            <li class="mx-5">
+                                <a href="#" class="mx-5">अन्य &nbsp; <i class="fa fa-chevron-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li><a href="nepali-stories.html">हाम्रा कथाहरू</a></li>
+                                    <li><a href="nepali-podcast.html">पोडकास्ट</a></li>
+                                    <li><a href="nepali-about.html">हाम्रो बारेमा</a></li>
+                                    <li><a href="nepali-contact.html">सम्पर्क</a></li>
+                                </ul>
+
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- Breadcrumb -->
+    <div class="container bg0">
+        <div class="headline bg0 flex-wr-sb-c p-tb-8">
+            <div class="f2-s-1 p-r-30 m-tb-6">
+                <a href="nepali-index.html" class="breadcrumb-item f1-s-3">
+                    <p class="head">होम</p>
+                </a>
+                <a href="#" class="breadcrumb-item f1-s-3">
+                    <p class="head-title">कथाहरू</p>
+                </a>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Feature post -->
+    <section class="bg0">
+        <div class="container">
+
+            <div class="row justify-content-center">
+                <div class="col-md-12 col-lg-12 p-b-20">
+                    <div class="how2 how2-cl4 flex-s-c m-r-10 m-r-0-sr991">
+                        <h3 class="f1-m-2 cl3">
+                            हाम्रा कथाहरू
+                        </h3>
+
+                    </div>
+
+                    <div class="row p-t-35">
+                        <div class="col-sm-4 p-r-25 p-r-15-sr991">
+                            <!-- Item latest -->
+                            <div class="card-item m-b-45">
+                                <a href="nepali-single-post.html" class="wrap-pic-w hov1 trans-03">
+                                    <img src="img/nepali-img/balen-shah.jpg" alt="IMG">
+                                </a>
+
+                                <div class="p-t-16 mx-3">
+                                    <a class="category-post" id="business" href="nepali-category.html">विजनेस</a>
+                                    <a class="category-post" id="politics" href="nepali-category.html">राजनीति</a>
+                                    <a class="category-post" id="world" href="nepali-category.html">विश्व</a>
+                                    <h5 class="p-b-5">
+                                        <a href="nepali-single-post.html" class="f1-m-3 cl2 hov-cl10 trans-03">
+                                            काठमाडौं उपत्यकाको इन्द्रजात्राको
+                                            कार्यक्रम शुक्रबार बसन्तपुरमा सञ्चालन हुँदैछ ।
+                                        </a>
+                                    </h5>
+
+                                    <span class="cl8">
+                                        <a href="#" class="f1-s-4 cl8 hov-cl10 trans-03">
+                                            <i class="fa fa-user"></i> बालेन शाह - असार १८
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4 p-r-25 p-r-15-sr991">
+                            <!-- Item latest -->
+                            <div class="card-item m-b-45">
+                                <a href="nepali-single-post.html" class="wrap-pic-w hov1 trans-03">
+                                    <img src="img/2.jpg" alt="IMG">
+                                </a>
+
+                                <div class="p-t-16 mx-3">
+                                    <a class="category-post" id="business" href="nepali-category.html">विजनेस</a>
+                                    <a class="category-post" id="politics" href="nepali-category.html">राजनीति</a>
+                                    <a class="category-post" id="world" href="nepali-category.html">विश्व</a>
+                                    <h5 class="p-b-5">
+                                        <a href="nepali-single-post.html" class="f1-m-3 cl2 hov-cl10 trans-03">
+                                            काठमाडौं महानगरपालिकाले आयोजना गरेको उक्त कार्यक्रम शुक्रबार अपरान्ह सुरु
+                                            हुनेछ ।
+                                        </a>
+                                    </h5>
+
+                                    <span class="cl8">
+                                        <a href="#" class="f1-s-4 cl8 hov-cl10 trans-03">
+                                            <i class="fa fa-user"></i> बालेन शाह - असार १८
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4 p-r-25 p-r-15-sr991">
+                            <!-- Item latest -->
+                            <div class="card-item m-b-45">
+                                <a href="nepali-single-post.html" class="wrap-pic-w hov1 trans-03">
+                                    <img src="img/nepali-img/balenshah.jpg" alt="IMG">
+                                </a>
+
+                                <div class="p-t-16 mx-3">
+                                    <a class="category-post" id="business" href="nepali-category.html">विजनेस</a>
+                                    <a class="category-post" id="politics" href="nepali-category.html">राजनीति</a>
+                                    <a class="category-post" id="world" href="nepali-category.html">विश्व</a>
+                                    <h5 class="p-b-5">
+                                        <a href="nepali-single-post.html" class="f1-m-3 cl2 hov-cl10 trans-03">
+                                            इन्द्रजात्रा कार्यक्रम हेर्नको ठूलो संख्या बसन्तपुर
+                                            क्षेत्रमा भेला भएको छ ।
+                                        </a>
+                                    </h5>
+
+                                    <span class="cl8">
+                                        <a href="#" class="f1-s-4 cl8 hov-cl10 trans-03">
+                                            <i class="fa fa-user"></i> बालेन शाह - असार १८
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="row p-t-35">
+                        <div class="col-sm-4 p-r-25 p-r-15-sr991">
+                            <!-- Item latest -->
+                            <div class="card-item m-b-45">
+                                <a href="nepali-single-post.html" class="wrap-pic-w hov1 trans-03">
+                                    <img src="img/1.jpg" alt="IMG">
+                                </a>
+
+                                <div class="p-t-16 mx-3">
+                                    <a class="category-post" id="business" href="nepali-category.html">विजनेस</a>
+                                    <a class="category-post" id="politics" href="nepali-category.html">राजनीति</a>
+                                    <a class="category-post" id="world" href="nepali-category.html">विश्व</a>
+                                    <h5 class="p-b-5">
+                                        <a href="nepali-single-post.html" class="f1-m-3 cl2 hov-cl10 trans-03">
+                                            काठमाडौं उपत्यकाको इन्द्रजात्राको
+                                            कार्यक्रम शुक्रबार बसन्तपुरमा सञ्चालन हुँदैछ ।
+                                        </a>
+                                    </h5>
+
+                                    <span class="cl8">
+                                        <a href="#" class="f1-s-4 cl8 hov-cl10 trans-03">
+                                            <i class="fa fa-user"></i> बालेन शाह - असार १८
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4 p-r-25 p-r-15-sr991">
+                            <!-- Item latest -->
+                            <div class="card-item m-b-45">
+                                <a href="nepali-single-post.html" class="wrap-pic-w hov1 trans-03">
+                                    <img src="img/2.jpg" alt="IMG">
+                                </a>
+
+                                <div class="p-t-16 mx-3">
+                                    <a class="category-post" id="business" href="nepali-category.html">विजनेस</a>
+                                    <a class="category-post" id="politics" href="nepali-category.html">राजनीति</a>
+                                    <a class="category-post" id="world" href="nepali-category.html">विश्व</a>
+                                    <h5 class="p-b-5">
+                                        <a href="nepali-single-post.html" class="f1-m-3 cl2 hov-cl10 trans-03">
+                                            काठमाडौं महानगरपालिकाले आयोजना गरेको उक्त कार्यक्रम शुक्रबार अपरान्ह सुरु
+                                            हुनेछ ।
+                                        </a>
+                                    </h5>
+
+                                    <span class="cl8">
+                                        <a href="#" class="f1-s-4 cl8 hov-cl10 trans-03">
+                                            <i class="fa fa-user"></i> बालेन शाह - असार १८
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4 p-r-25 p-r-15-sr991">
+                            <!-- Item latest -->
+                            <div class="card-item m-b-45">
+                                <a href="nepali-single-post.html" class="wrap-pic-w hov1 trans-03">
+                                    <img src="img/3.jpg" alt="IMG">
+                                </a>
+
+                                <div class="p-t-16 mx-3">
+                                    <a class="category-post" id="business" href="nepali-category.html">विजनेस</a>
+                                    <a class="category-post" id="politics" href="nepali-category.html">राजनीति</a>
+                                    <a class="category-post" id="world" href="nepali-category.html">विश्व</a>
+                                    <h5 class="p-b-5">
+                                        <a href="nepali-single-post.html" class="f1-m-3 cl2 hov-cl10 trans-03">
+                                            इन्द्रजात्रा कार्यक्रम हेर्नको ठूलो संख्या बसन्तपुर
+                                            क्षेत्रमा भेला भएको छ ।
+                                        </a>
+                                    </h5>
+
+                                    <span class="cl8">
+                                        <a href="#" class="f1-s-4 cl8 hov-cl10 trans-03">
+                                            <i class="fa fa-user"></i> बालेन शाह - असार १८
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="row p-t-35">
+                        <div class="col-sm-4 p-r-25 p-r-15-sr991">
+                            <!-- Item latest -->
+                            <div class="card-item m-b-45">
+                                <a href="nepali-single-post.html" class="wrap-pic-w hov1 trans-03">
+                                    <img src="img/1.jpg" alt="IMG">
+                                </a>
+
+                                <div class="p-t-16 mx-3">
+                                    <a class="category-post" id="business" href="nepali-category.html">विजनेस</a>
+                                    <a class="category-post" id="politics" href="nepali-category.html">राजनीति</a>
+                                    <a class="category-post" id="world" href="nepali-category.html">विश्व</a>
+                                    <h5 class="p-b-5">
+                                        <a href="nepali-single-post.html" class="f1-m-3 cl2 hov-cl10 trans-03">
+                                            काठमाडौं उपत्यकाको इन्द्रजात्राको
+                                            कार्यक्रम शुक्रबार बसन्तपुरमा सञ्चालन हुँदैछ ।
+                                        </a>
+                                    </h5>
+
+                                    <span class="cl8">
+                                        <a href="#" class="f1-s-4 cl8 hov-cl10 trans-03">
+                                            <i class="fa fa-user"></i> बालेन शाह - असार १८
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4 p-r-25 p-r-15-sr991">
+                            <!-- Item latest -->
+                            <div class="card-item m-b-45">
+                                <a href="nepali-single-post.html" class="wrap-pic-w hov1 trans-03">
+                                    <img src="img/2.jpg" alt="IMG">
+                                </a>
+
+                                <div class="p-t-16 mx-3">
+                                    <a class="category-post" id="business" href="nepali-category.html">विजनेस</a>
+                                    <a class="category-post" id="politics" href="nepali-category.html">राजनीति</a>
+                                    <a class="category-post" id="world" href="nepali-category.html">विश्व</a>
+                                    <h5 class="p-b-5">
+                                        <a href="nepali-single-post.html" class="f1-m-3 cl2 hov-cl10 trans-03">
+                                            काठमाडौं महानगरपालिकाले आयोजना गरेको उक्त कार्यक्रम शुक्रबार अपरान्ह सुरु
+                                            हुनेछ ।
+                                        </a>
+                                    </h5>
+
+                                    <span class="cl8">
+                                        <a href="#" class="f1-s-4 cl8 hov-cl10 trans-03">
+                                            <i class="fa fa-user"></i> बालेन शाह - असार १८
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4 p-r-25 p-r-15-sr991">
+                            <!-- Item latest -->
+                            <div class="card-item m-b-45">
+                                <a href="nepali-single-post.html" class="wrap-pic-w hov1 trans-03">
+                                    <img src="img/3.jpg" alt="IMG">
+                                </a>
+
+                                <div class="p-t-16 mx-3">
+                                    <a class="category-post" id="business" href="nepali-category.html">विजनेस</a>
+                                    <a class="category-post" id="politics" href="nepali-category.html">राजनीति</a>
+                                    <a class="category-post" id="world" href="nepali-category.html">विश्व</a>
+                                    <h5 class="p-b-5">
+                                        <a href="nepali-single-post.html" class="f1-m-3 cl2 hov-cl10 trans-03">
+                                            इन्द्रजात्रा कार्यक्रम हेर्नको ठूलो संख्या बसन्तपुर
+                                            क्षेत्रमा भेला भएको छ ।
+                                        </a>
+                                    </h5>
+
+                                    <span class="cl8">
+                                        <a href="#" class="f1-s-4 cl8 hov-cl10 trans-03">
+                                            <i class="fa fa-user"></i> बालेन शाह - असार १८
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="row p-t-35">
+                        <div class="col-sm-4 p-r-25 p-r-15-sr991">
+                            <!-- Item latest -->
+                            <div class="card-item m-b-45">
+                                <a href="nepali-single-post.html" class="wrap-pic-w hov1 trans-03">
+                                    <img src="img/1.jpg" alt="IMG">
+                                </a>
+
+                                <div class="p-t-16 mx-3">
+                                    <a class="category-post" id="business" href="nepali-category.html">विजनेस</a>
+                                    <a class="category-post" id="politics" href="nepali-category.html">राजनीति</a>
+                                    <a class="category-post" id="world" href="nepali-category.html">विश्व</a>
+                                    <h5 class="p-b-5">
+                                        <a href="nepali-single-post.html" class="f1-m-3 cl2 hov-cl10 trans-03">
+                                            काठमाडौं उपत्यकाको इन्द्रजात्राको
+                                            कार्यक्रम शुक्रबार बसन्तपुरमा सञ्चालन हुँदैछ ।
+                                        </a>
+                                    </h5>
+
+                                    <span class="cl8">
+                                        <a href="#" class="f1-s-4 cl8 hov-cl10 trans-03">
+                                            <i class="fa fa-user"></i> बालेन शाह - असार १८
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4 p-r-25 p-r-15-sr991">
+                            <!-- Item latest -->
+                            <div class="card-item m-b-45">
+                                <a href="nepali-single-post.html" class="wrap-pic-w hov1 trans-03">
+                                    <img src="img/2.jpg" alt="IMG">
+                                </a>
+
+                                <div class="p-t-16 mx-3">
+                                    <a class="category-post" id="business" href="nepali-category.html">विजनेस</a>
+                                    <a class="category-post" id="politics" href="nepali-category.html">राजनीति</a>
+                                    <a class="category-post" id="world" href="nepali-category.html">विश्व</a>
+                                    <h5 class="p-b-5">
+                                        <a href="nepali-single-post.html" class="f1-m-3 cl2 hov-cl10 trans-03">
+                                            काठमाडौं महानगरपालिकाले आयोजना गरेको उक्त कार्यक्रम शुक्रबार अपरान्ह सुरु
+                                            हुनेछ ।
+                                        </a>
+                                    </h5>
+
+                                    <span class="cl8">
+                                        <a href="#" class="f1-s-4 cl8 hov-cl10 trans-03">
+                                            <i class="fa fa-user"></i> बालेन शाह - असार १८
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4 p-r-25 p-r-15-sr991">
+                            <!-- Item latest -->
+                            <div class="card-item m-b-45">
+                                <a href="nepali-single-post.html" class="wrap-pic-w hov1 trans-03">
+                                    <img src="img/3.jpg" alt="IMG">
+                                </a>
+
+                                <div class="p-t-16 mx-3">
+                                    <a class="category-post" id="business" href="nepali-category.html">विजनेस</a>
+                                    <a class="category-post" id="politics" href="nepali-category.html">राजनीति</a>
+                                    <a class="category-post" id="world" href="nepali-category.html">विश्व</a>
+                                    <h5 class="p-b-5">
+                                        <a href="nepali-single-post.html" class="f1-m-3 cl2 hov-cl10 trans-03">
+                                            इन्द्रजात्रा कार्यक्रम हेर्नको ठूलो संख्या बसन्तपुर
+                                            क्षेत्रमा भेला भएको छ ।
+                                        </a>
+                                    </h5>
+
+                                    <span class="cl8">
+                                        <a href="#" class="f1-s-4 cl8 hov-cl10 trans-03">
+                                            <i class="fa fa-user"></i> बालेन शाह - असार १८
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="flex-wr-s-c">
+                    <a href="#" class="flex-c-c pagi-item hov-btn1 trans-03 m-all-7 pagi-active">१</a>
+                    <a href="#" class="flex-c-c pagi-item hov-btn1 trans-03 m-all-7">२</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Post -->
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer">
+            <div class="container">
+
+                <div class="flex-wr-s-s size-w-0">
+                    <a href="#"
+                        class="dis-block f1-s-13 cl0 bg-facebook borad-3 p-tb-4 p-rl-18 hov-btn1 mr-2 mt-5 trans-03">
+                        <i class="fa fa-facebook-f"></i> &nbsp; &nbsp; &nbsp; &nbsp;
+                        फेसबुक
+                    </a>
+
+                    <a href="#"
+                        class="dis-block f1-s-13 cl0 bg-twitter borad-3 p-tb-4 p-rl-18 hov-btn1 mr-2 mt-5 trans-03">
+                        <i class="fa fa-twitter"></i> &nbsp; &nbsp; &nbsp; &nbsp;
+                        ट्विटर
+                    </a>
+
+                    <a href="#"
+                        class="dis-block f1-s-13 cl0 bg-youtube borad-3 p-tb-4 p-rl-18 hov-btn1 mr-2 mt-5 trans-03">
+                        <i class="fa fa-youtube"></i> &nbsp; &nbsp; &nbsp; &nbsp;
+                        यूट्यूब
+                    </a>
+                </div>
+
+                <hr>
+
+                <div class="row">
+                    <div class="col-lg-3 p-b-20">
+                        <div class="size-h-3 flex-s-c">
+                            <h5 class="f1-m-7 cl0">
+                                हाम्रो बारेमा
+                            </h5>
+                        </div>
+                        <div class="size-h-3 flex-s-c">
+
+                            <a href="nepali-index.html">
+                                <img class="max-s-full" src="img/logo/logo.png" alt="LOGO">
+                            </a>
+                        </div>
+
+                        <div>
+                            <p class="f1-s-2 cl11 p-b-16">
+                                गो न्यूज नेपालको एक न्यूज पोर्टल वेबसाइट हो जसले विश्वभर भइरहेका जानकारीहरू प्रदान
+                                गर्दछ।
+                            </p>
+
+                            <a href="stories.html" title="Click for English Website"
+                                class="btn btn-outline-secondary nepali"><img src="img/icons/english.png" alt="">
+                                EN
+                            </a>
+
+                            <a href="nepali-podcast.html" title="पोडकास्ट"
+                                class="btn btn-outline-secondary podcast ml-2"><i class="
+								fa fa-microphone"></i>पोडकास्ट
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 p-b-20">
+                        <div class="popular-post size-h-3 flex-s-c">
+                            <h5 class="f1-m-7 cl0">
+                                लोकप्रिय पोस्टहरू
+                            </h5>
+                        </div>
+
+                        <ul>
+                            <li class="flex-wr-sb-s p-b-20">
+                                <a href="nepali-single-post.html" class="size-w-4 wrap-pic-w hov1 trans-03">
+                                    <img src="img/1.jpg" alt="IMG">
+                                </a>
+
+                                <div class="size-w-5">
+                                    <h6 class="p-b-5">
+                                        <a href="nepali-single-post.html" class="f1-s-5 cl11 hov-cl10 trans-03">
+                                            एएफसी यु-२० एसिया कप छनोट : नेपाल र भुटानको खेल आज
+                                        </a>
+                                    </h6>
+
+                                    <span class="f1-s-3 cl6">
+                                        २४ भदौ, काठमाडौं
+                                    </span>
+                                </div>
+                            </li>
+
+                            <li class="flex-wr-sb-s p-b-20">
+                                <a href="nepali-single-post.html" class="size-w-4 wrap-pic-w hov1 trans-03">
+                                    <img src="img/2.jpg" alt="IMG">
+                                </a>
+
+                                <div class="size-w-5">
+                                    <h6 class="p-b-5">
+                                        <a href="nepali-single-post.html" class="f1-s-5 cl11 hov-cl10 trans-03">
+                                            २४ घण्टापछि पक्राउ परे वकिल कार्यालयबाट फरार भएका विश्वकर्मा
+                                        </a>
+                                    </h6>
+
+                                    <span class="f1-s-3 cl6">
+                                        २४ भदौ, काठमाडौं
+                                    </span>
+                                </div>
+                            </li>
+
+                            <li class="flex-wr-sb-s p-b-20">
+                                <a href="nepali-single-post.html" class="size-w-4 wrap-pic-w hov1 trans-03">
+                                    <img src="img/3.jpg" alt="IMG">
+                                </a>
+
+                                <div class="size-w-5">
+                                    <h6 class="p-b-5">
+                                        <a href="nepali-single-post.html" class="f1-s-5 cl11 hov-cl10 trans-03">
+                                            नेपालीको भात भान्सा महँगाइरहेको सुनौलीको जाम
+                                        </a>
+                                    </h6>
+
+                                    <span class="f1-s-3 cl6">
+                                        २४ भदौ, काठमाडौं
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-2 p-b-20">
+                        <div class="size-h-3 flex-s-c">
+                            <h5 class="f1-m-7 cl0">
+                                श्रेणी
+                            </h5>
+                        </div>
+
+                        <ul class="m-t--12">
+                            <li class="how-bor1 p-rl-5 p-tb-10">
+                                <a href="nepali-category.html" class="f1-s-5 cl11 hov-cl10 trans-03 p-tb-8">
+
+                                    समाचार (२२)
+                                </a>
+                            </li>
+
+                            <li class="how-bor1 p-rl-5 p-tb-10">
+                                <a href="nepali-category.html" class="f1-s-5 cl11 hov-cl10 trans-03 p-tb-8">
+                                    टेक्नोलोजी (२२)
+                                </a>
+                            </li>
+
+                            <li class="how-bor1 p-rl-5 p-tb-10">
+                                <a href="nepali-category.html" class="f1-s-5 cl11 hov-cl10 trans-03 p-tb-8">
+
+                                    मनोरन्जन (२२)
+                                </a>
+                            </li>
+
+                            <li class="how-bor1 p-rl-5 p-tb-10">
+                                <a href="nepali-category.html" class="f1-s-5 cl11 hov-cl10 trans-03 p-tb-8">
+                                    विजनेस (२२)
+                                </a>
+                            </li>
+
+                            <li class="how-bor1 p-rl-5 p-tb-10">
+                                <a href="nepali-category.html" class="f1-s-5 cl11 hov-cl10 trans-03 p-tb-8">
+                                    यात्रा (२२)
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-3 p-b-20">
+                        <div class="size-h-3 flex-s-c">
+                            <h5 class="f1-m-7 cl0">
+                                सदस्यता लिनुहोस्
+                            </h5>
+                        </div>
+
+                        <p class="f1-s-1 cl0 p-b-25">
+                            तपाईंको इमेलमा डेलिभर गरिएको सबै नवीनतम जानकारी प्राप्त गर्न सदस्यता लिनुहोस्।
+                        </p>
+
+                        <form class="size-a-9 pos-relative">
+                            <input class="s-full f1-m-6 cl6 plh9 p-l-20 p-r-55" type="text" name="email"
+                                placeholder="इमेल ठेगाना राख्नुहोस।">
+
+                            <button class="size-a-10 flex-c-c ab-t-r fs-16 cl9 hov-cl10 trans-03">
+                                <i class="fa fa-arrow-right"></i>
+                            </button>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="bg11">
+            <div class="container size-h-4 flex-c-c p-tb-15">
+                <span class="f1-s-3 cl0 txt-center text-secondary">
+                    Copyright ©
+                    <script>document.write(new Date().getFullYear());</script> | <a href="nepali-index.html"
+                        target="_blank"><strong>
+                            Go
+                            News</strong>.</a> Designed & Developed by <a href="https://itnepalsolutions.com/"
+                        target="_blank"><strong>IT
+                            Nepal
+                            Solutions</strong></a>
+                </span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top -->
+    <div class="btn-back-to-top" id="myBtn">
+        <span class="symbol-btn-back-to-top">
+            <span class="fa fa-angle-up"></span>
+        </span>
+    </div>
+
+    <!--===============================================================================================-->
+    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/bootstrap/js/popper.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="js/main.js"></script>
+    <!-- <script src="js/date-time.js"></script> -->
+    <script src="js/dark-light-mode.js"></script>
+    <script src="js/nepali-date.js"></script>
+
+</body>
+
+</html>
